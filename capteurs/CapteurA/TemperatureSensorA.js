@@ -1,4 +1,3 @@
-TemperatureSensorA
 class TemperatureSensorA {
  constructor(location, threshold) {
     this.location = location;
