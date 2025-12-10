@@ -1,4 +1,3 @@
-CameraA
 class CameraA {
  constructor(location) {
     this.location = location;

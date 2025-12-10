@@ -1,4 +1,3 @@
-MotionSensorA
 class MotionSensorA {
  constructor(location) {
     this.location = location;

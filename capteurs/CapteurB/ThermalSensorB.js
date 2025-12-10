@@ -1,8 +1,11 @@
-ThermalSensorB
 class ThermalSensorB {
  constructor(position) {
     this.position = position;
     this.name = position.name || "ThermalSensorB";
     }
- scanHeatSignature() {} // Déclenche une donnée complexe json, voir ci dessous
-}
+ scanHeatSignature() {
+    return {
+        sensor: this.name,
+ } 
+}}
+module.exports = ThermalSensorB;

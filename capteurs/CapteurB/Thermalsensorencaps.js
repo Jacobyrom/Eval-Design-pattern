@@ -2,7 +2,7 @@ const ThermalSensorB = require('../ThermalSensorB');
 
 class ThermalSensorBEncaps {
   constructor(position) {
-    this.sensor = new ThermalSensorB(position);
+    this.sensor = ThermalSensorB(position);
   }  
 }
 module.exports = ThermalSensorB;
