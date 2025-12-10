@@ -2,8 +2,9 @@ class Discord {
     constructor (compte) {
         this.compte = compte;
     }
-}
-  send(message) {
+
+     send(message) {
         console.log(`Sending message to ${this.address}: ${message}`);
     }
-module.exports = discord;
+}
+module.exports = Discord;

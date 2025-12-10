@@ -7,3 +7,4 @@ class Mail {
         console.log(`Sending mail to ${this.address}: ${message}`);
     }
 }
+modules.exports = Mail;
